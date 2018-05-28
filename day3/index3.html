@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>三栏布局-圣杯</title>
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .wrap{
+            /*width:100%;*/
+            margin: 20px;
+            padding: 0 160px 0 240px;
+            border:1px solid #999;
+            background-color: #eee;
+            /*overflow: hidden;*/
+        }
+
+        .left, .middle, .right{
+            position: relative;
+            float: left;
+            border:1px solid #999;
+
+        }
+        .middle{
+            margin:20px 0;
+            width: 100%;
+        }
+        .left{
+            width: 200px;
+            height: 120px;
+            margin-top:20px;
+            margin-left: -100%;
+            left: -220px;
+        }
+        .right{
+            width: 120px;
+            height: 580px;
+            margin: 20px 20px 20px -160px;
+            right:-180px;
+        }
+        .wrap:after{
+            content: " ";
+            display: block;
+            height: 0;
+            clear: both;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="middle"> asd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            as asss            asdasdasd as         asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd asss            asdasdasd</div>
+        <div class="left"></div>
+        <div class="right"></div>
+    </div>
+</body>
+</html>

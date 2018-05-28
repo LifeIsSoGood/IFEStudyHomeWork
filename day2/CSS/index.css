@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height:60px;
+    background-color: grey;
+    /*position: relative;*/
+}
+
+.logo{
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left:40px;
+    background: url("../Images/logo.png") no-repeat;
+    float: left;
+}
+.nav{
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.content{
+    background-color: #f0f0f0;
+}
+.wrapper{
+    margin:0 20px;
+    padding: 20px 0;
+}
+
+article{
+    padding: 40px 20px;
+    background-color: #fff;
+}
+h4{
+    height: 40px;
+    line-height: 40px;
+}
+h5{
+    height:30px;
+    line-height: 30px;
+}
+p{
+    text-indent: 30px;
+}
+.nav ul li{
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.wrapper article ul li{
+    list-style: none;
+}
+
+.pic{
+    margin-left: 40px;
+    margin-top: 20px;
+    border: 1px solid gray;
+    width: 220px;
+    height: 340px;
+}
+.pic span{
+    height:20px; 
+    line-height: 20px;
+    margin-top: 5px;
+    text-align: center;
+    display: block;
+}
+.pic img{
+    margin:10px;
+}
+ol{
+    margin-left: 40px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th{
+    background-color: grey;
+    color:white;
+}
+tr:nth-child(6){
+    background-color: #f0f0f0;
+}
+table,th,td{
+    border: 1px solid #f0f0f0;
+    text-align: left;
+}
+
+.side-left{
+    width: 40%;
+}
+.mailpassword div{
+    text-align: right;
+    margin-bottom: 10px;
+}
+.mailpassword div span{
+    margin-right: 0px;
+}
+.info{
+    text-align: right;
+    margin-bottom: 10px;
+}
+.describe{
+    margin-left: 18%;
+}
+button{
+    height: 40px;
+    width: 100%;
+    margin:10px auto;
+    display: block;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+}
+
+footer{
+    width: 100%;
+    height:80px;
+    background-color: black;
+}
+footer div{
+    width: 100px;
+    height: 60px;
+    line-height: 60px;
+    color: white;
+    margin: 0 auto;
+}
